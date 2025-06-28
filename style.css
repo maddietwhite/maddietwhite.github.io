@@ -77,4 +77,21 @@ footer {
   color: #5e3c4e;
 }
 
+.lifestyle-gallery img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: auto;
+  display: block;
+}
+
+.lifestyle-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+
 
